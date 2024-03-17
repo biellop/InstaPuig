@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/signinFragment">
+
+    <fragment
+        android:id="@+id/signinFragment"
+        android:name="com.example.instapuig.signinFragment"
+        android:label="fragment_signin"
+        tools:layout="@layout/fragment_signin" />
+    <fragment
+        android:id="@+id/signoutFragment"
+        android:name="com.example.instapuig.signoutFragment"
+        android:label="fragment_signout"
+        tools:layout="@layout/fragment_signout" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.instapuig.registerFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.instapuig.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.instapuig.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/newPostFragment"
+        android:name="com.example.instapuig.NewPostFragment"
+        android:label="new_post_fragment"
+        tools:layout="@layout/new_post_fragment" />
+    <fragment
+        android:id="@+id/mediaFragment"
+        android:name="com.example.instapuig.MediaFragment"
+        android:label="fragment_media"
+        tools:layout="@layout/fragment_media" />
+</navigation>
